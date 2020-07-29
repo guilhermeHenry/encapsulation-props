@@ -1,3 +1,6 @@
+const camelCase = require('lodash/camelCase');
+const isInteger = require('lodash/isInteger');
+
 module.exports = function (...objs) {
     objs.forEach(obj => {
         obj.set = (name, value, index = null) => {
