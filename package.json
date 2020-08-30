@@ -2,8 +2,10 @@
   "name": "encapsulation-props",
   "version": "1.0.1",
   "description": "",
-  "main": "index.js",
-  "scripts": {},
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "npx webpack -d --watch"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/guilhermeHenry/encapsulation-props.git"
